@@ -47,8 +47,7 @@ namespace Interview
     {        
 
         public CardSuits suit { get; set; }
-        public CardValues value { get; set; }
-        public int MyProperty { get; set; }
+        public CardValues value { get; set; }        
 
         public Card(CardSuits suitValue, CardValues cardValue)
         {
